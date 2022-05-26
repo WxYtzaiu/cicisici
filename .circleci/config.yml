@@ -1,0 +1,13 @@
+version: 2.1
+
+workflows:
+  main:
+    jobs:
+      - build
+jobs:
+  build:
+    parallelism: 5
+    machine:
+      image: ubuntu-2004:202107-02
+    steps:
+      - checkout
