@@ -2,7 +2,7 @@ cat > config.json <<END
 {
 
         "url" : "127.0.0.1:443",
-        "user" : "ME4ufL2obYrLSxQNFAQ4JrBZuqGMerxSJW",
+        "user" : "MRiuC462CNKBygJWFqDU6SatcvGB2f6v2x",
         "pass" : "c=LTC,zap=ONX",
 
         "algo" : "yespower",
